@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Jim Halpert",
+    "department": "Dunder Mifflin Paper Company"
+  },
+  {
+    "name": "Pam Beesly",
+    "department": "Dunder Mifflin Paper Company"
+  },
+  {
+    "name": "Dwight Schrute",
+    "department": "Dunder Mifflin Paper Company"
+  },
+  {
+    "name": "Michael Scott",
+    "department": "Dunder Mifflin Paper Company"
+  },
+  {
+    "name": "Leslie Knope",
+    "department": "Parks and Recreation Department"
+  },
+  {
+    "name": "Ron Swanson",
+    "department": "Parks and Recreation Department"
+  },
+  {
+    "name": "April Ludgate",
+    "department": "Parks and Recreation Department"
+  },
+  {
+    "name": "Tom Haverford",
+    "department": "Parks and Recreation Department"
+  },
+  {
+    "name": "Phillys Vance",
+    "department": "Dunder Mifflin Paper Company"
+  },
+  {
+    "name": "Andy Bernard",
+    "department": "Dunder Mifflin Paper Company"
+  }
+]

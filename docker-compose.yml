@@ -1,0 +1,30 @@
+version: "3"
+services:
+  database:
+    container_name: database
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+    networks:
+      - backend
+  api:
+    container_name: api
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    networks:
+      - backend
+      - frontend
+  client:
+    container_name: client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    networks:
+      - frontend
+    ports:
+      - 8080:80
+
+networks:
+  backend:
+  frontend:
